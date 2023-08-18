@@ -1,0 +1,556 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+
+:root{
+  --theme-color: #001E62; /* NTU BLUE is #001E62; */
+}
+
+.clickbutton {
+    display: block;
+    width: 50%;
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    color: red;
+}
+
+.clickbutton:hover{
+  background-color:red!important;
+  color:white!important;
+}
+
+@font-face{
+  font-family:'Sansation';
+  src: url('Sansation_Regular.ttf');
+}
+
+@font-face{
+  font-family:'Sansation Light';
+  src: url('Sansation_Light.ttf');
+}
+
+#logo-font{
+  font-family:'Dealerplate California';
+  src: url('dealerplatecalifornia.otf');
+}
+/* ----------------------- GENERAL CSS ---------------------*/
+body {
+        background-image: url('spms.jpg');
+        background-image: linear-gradient(#caf2bf ,#a7d6b5);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:cover;
+        color: white!important;
+        font-family: 'Sansation'!important;
+      }
+
+h2{
+  font-size:26px!important;
+}
+h4{
+  font-size:16px!important;
+}
+table, th, td {
+  border:2px solid black;
+}
+
+header-logo{
+  width:30vw;
+}
+th{
+  padding-top:5px!important;
+  padding-bottom:5px!important;
+  padding-left:25px!important;
+  padding-right:25px!important;
+  font-family:'Sansation Light'!important;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  color:inherit!important;
+}
+
+.overall-containter{
+  width:50%!important;
+  padding-left:25%!important;
+}
+
+.padding64{
+  padding:24px!important;
+}
+.navbar-color{
+  border:none!important;
+  padding-left:18%;
+  background-color:var(--theme-color)!important;
+}
+.carousel-container{
+  padding-left:128px!important;
+  padding-right:128px!important;
+  padding-top:32px;
+  padding-bottom:32px;
+}
+
+.logo-heading{
+   background-image:url('nanyanglake.jpg');
+   background-repeat: no-repeat;
+   background-size:cover
+}
+
+.title-text{
+  width:50%;
+  margin-left:25%;
+}
+
+.mainlogo{
+   width:20%;
+   min-width:200px;
+}
+
+.section-main{ 
+}
+
+.two-columns{
+  column-count:2;
+}
+
+.section-container{
+   width:70vw!important;
+   margin-left:15vw!important;
+   margin-top:15px!important;
+   height:auto!important;
+   padding-bottom: 2.5rem;
+   overflow: hidden;
+   box-shadow: 5px 10px 5px rgba(0,0,0,0.5);
+}
+
+.textpost{
+   padding:32px;
+   font-size:18px!important;
+}
+
+.textpost-widemargin{
+   padding-top:16px;
+   padding-bottom:16px;
+   padding-left:18%;
+   padding-right:18%;
+   font-size:16px!important;
+}
+
+.half-black{
+   background-color:rgba(0,0,0,0.5)!important;
+}
+
+.half-width{
+  float:left;
+  width:45.9999%;
+}
+
+.third-width{
+  float:left;
+  width:33.32%;
+}
+
+.twothird-width{
+  float:left;
+  width:66.66%;
+}
+.opaque-black{
+  background-color:rgba(0,0,0,0.75)!important;
+}
+
+.bg-white{
+   background-color:#fff!important;
+}
+
+.bg-light-grey{
+  background-color:#ccc!important;
+}
+
+.bg-dark-grey{
+  background-color:rgba(0.8,0.8,0.8,0.8)!important;
+}
+.text-black{
+   color:#000!important;
+}
+
+.text-grey{
+  color:#888!important;
+}
+
+.text-white{
+  color:#fff!important;
+}
+
+.margin64{
+  margin:64px;
+}
+
+.padding16{
+   padding:16px;
+}
+
+.padding16-v{
+   padding-top:16px;
+   padding-bottom:16px;
+}
+
+.padding32-v{
+   padding-top:32px;
+   padding-bottom:32px;
+}
+.padding32{
+   padding:32px;
+}
+
+.padding64{
+   padding:64px;
+}
+
+.padding64-h{
+   padding-left:64px;
+   padding-right:64px;
+}
+.fancy-button{
+}
+
+.fancy-button:hover{
+   background-color:#fff!important;
+   color:#000!important;
+}
+
+.social-button{
+  color:#000!important;
+}
+
+.social-button-white{
+  color:#fff!important;
+}
+
+.social-button:hover, .social-button-white:hover{
+  opacity:0.60
+}
+
+#show_gradient {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg');
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+
+.fancy {
+  padding-left:10em;
+  padding-right:10em;
+  width: 100%;
+  box-sizing: border-box;
+
+  /* At the bottom of our background stack,
+     let's have a misty grey solid color */
+  /*background-color: #e4e4d9!important;*/
+
+  /* We stack linear gradients on top of each
+     other to create our color strip effect.
+     As you will notice, color gradients are
+     considered to be images and can be
+     manipulated as such */
+  background-color:#222!important;
+}
+
+
+.custom-footer{
+   margin-top: auto;
+   width:70vw!important;
+   margin-left:15vw!important;
+   margin-top:15px!important;
+   margin-bottom:30px!important;
+   color:#000!important;
+   background-color: #fff!important;
+   overflow:hidden;
+   box-shadow: 5px 10px 5px rgba(0,0,0,0.5);
+}
+
+.footer-logo{
+  float:left!important;
+  width:49.99%;
+}
+
+.footer-text{
+  float:right!important;padding-right:8%;padding-top:64px;padding-bottom:64px;width:58%;text-align:center!important;
+}
+
+/* -------------- Small screen changes --------------------*/
+@media only screen and (max-width:768px){
+.logo-heading{
+   background-image:url('nanyanglake_small.jpg');
+ }
+  body{
+          /*background-image: url('spms-small.jpg')!important;*/
+          background-attachment:fixed!important;
+        }
+
+  header-logo{
+    width:50vw!important;
+  }
+
+  h1{
+    font-size:22px!important;
+  }
+
+  h2{
+    font-size:20px!important;
+  }
+  h4{
+    font-size:15px!important;
+  }
+
+  .title-text{
+    width:80%!important;
+    margin-left:10%!important;
+  }
+   .fancy{
+      padding-left:1em!important;
+      padding-right:1em!important;
+   }   
+
+   .textpost{
+      padding:2px!important;
+      font-size:14px!important;
+   }
+
+  .textpost-widemargin{
+     padding-top:2px;
+     padding-bottom:2px;
+     padding-left:0!important;
+     padding-right:0!important;
+     font-size:14px!important;
+  }
+
+   .carousel-container{
+      padding-left:0!important;
+      padding-right:0!important;
+   }
+
+   .clickbutton {
+    width:90%!important;
+   }
+
+   .half-width{ /*On mobile there's no half-width */
+      width:100%!important;
+    }
+
+     .menu-custom{
+       color:#ddd!important;
+     }
+
+  .section-container{
+     width:90vw!important;
+     margin-left:5vw!important;
+   }
+  .toggle-menu-custom{
+    color:#ddd!important;
+   }
+
+   .toggle-menu-custom:hover{
+    color:#222!important;
+    background-color:#fff!important;
+   }
+
+   .toggle-menu-logo{
+    width:38%!important;
+   }
+
+   .footer-logo{
+      float:none!important;
+      width:100%!important;
+      text-align:center!important;
+    }
+
+    .footer-text{
+      float:none!important;
+      width:100%!important;
+      padding:0!important;
+      margin:0!important;
+    }
+
+}
+
+
+/* ----------------------- Slide show ---------------------*/
+/* https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* ---------------- COLLAPSIBLE NAVBAR ---------------*/
+/* https://www.w3schools.com/howto/howto_js_collapsible.asp */
+
+
+ /* Style the button that is used to open and close the collapsible content */
+ .nav-custom{
+   background-color:rgba(0,0,0,0)!important;
+   border:none!important;
+ }
+
+ .menu-custom{
+   font-size:20px!important;
+   color:#333!important;
+ }
+
+ .toggle-menu-custom{
+ }
+
+ .toggle-menu-custom:hover{
+ }
+
+
+ .toggle-menu-logo{
+    width:100%;
+   }
+
+  .navbar-color{
+    padding-left:1%!important;
+  }
+
+ .nav-bigfont{
+   font-size:20px!important;
+ }
+
+ .dropdown-toggle-custom{
+   background-color:rgba(0,0,0,0)!important;
+   font-size:20px!important;
+ }
+
+ .dropdown-toggle-custom:hover{
+   background-color:#fff!important;
+   color:#000!important;
+ }
+
+.collapsible {}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+   position:absolute;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #000000;
+  width:20%;
+  transition: max-height 0.2s ease-out;
+} 
+
+.content-item{
+   border:none!important;
+   width:100%!important;
+   background-color: inherit;
+}
+
+.text-center{text-align:center!important}
+
+
+/* ---------------------------------------------------*/
+
+
