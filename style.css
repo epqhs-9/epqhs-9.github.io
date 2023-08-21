@@ -20,6 +20,10 @@
     color: red;
 }
 
+.media-credit{
+  font-size:8pt!important;
+  text-align:center!important;
+}
 .clickbutton:hover{
   background-color:red!important;
   color:white!important;
